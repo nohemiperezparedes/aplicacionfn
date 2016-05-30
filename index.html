@@ -1,0 +1,323 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplicacion Carreras </title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/appfinal.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/estaa.jpg','imagenes/0eu.jpg','imagenes/pos2.jpg','imagenes/in1.jpg')">
+<div data-role="page" id="Principal" data-theme="a" >
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>CARRERAS QUE QUISIERA ESTUDIAR</h1>
+   </div>
+   <div data-role="main" class="ui-content" >
+      <div data-role="collapsible" data-content-theme="false" >
+         <h1> DESARROLLADO POR</h1>
+          <div>
+          <!-- Start WOWSlider.com -->
+<iframe src="visor/wowindex.html" style="width:120px;height:360px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+          <p>Nohemi Perez Paredes                    
+          <p>Cuarto semestre Grupo &quot;H&quot;          
+          <p>CBTis 16<br>
+          </div>
+        <div>
+          <img src="imagenes/mimi.jpg" width=">50%" height="50%" ></div>
+     </div>
+          </div>
+          
+       <div>  
+   <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>FACULTAD DE MEDICINA</h2>
+   <p>Muestra informacion sobre  ofertas de estudio</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>INGENIERÍA EN CIENCIAS AERONAVALES </h2>
+<p>Muestra informacion sobre ofertas de estudio</p>
+</a>
+</li>
+<li clas="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>PSICOLOGÍA</h2>
+<p>Muestra informacion sobre ofertas de estudio</p>
+  </a>
+  </li>
+  </ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+  <h4>Aplicacion Carreras Universitarias</h4>
+ </div>
+<div>
+<img src="imagenes/mdpi.png" width="46" height="46">
+
+  <h4>NOHEMI PEREZ PAREDES</h4>
+  </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>FACULTAD DE MEDICINA</h1>
+ </div>
+ <div data-role="content" align="center">
+<div>
+     <div data-role="collapsible" data-content-theme="false">
+   <h1> Licenciatura en enfermería y obstetricia: (UNAM)</h1>
+   <div>
+   <img src="imagenes/una.jpg" width=">25%" height="25%" >
+   <br>
+   <img src="imagenes/es.jpg" width=">25%" height="25%%" >
+   <br>
+   <iframe width="50%" height="50%" src="https://www.youtube.com/embed/BJZQTyhk8ic" frameborder="0" allowfullscreen></iframe>
+   <br>
+   <img src="imagenes/mod.jpg" width=">25%" height="25%" >
+   <br>
+<p>Perfil del egresado: <br>
+Está a cargo del cuidado integral en materia de salud sexual y reproductiva, con énfasis en la gestación, la atención del parto y el recién nacido, brindando un trato digno en el nivel institucional y en el ejercicio libre de la profesión, para contribuir a la disminución de la morbilidad y mortalidad materno-infantil, considerando el enfoque de género, derechos humanos e interculturalidad.
+ Los egresados de la licenciatura en Enfermería y Obstetricia de la ENEO se distinguen por un desempeño profesional que contribuye a solucionar los problemas de salud que afectan a las grandes mayorías, de ahí la importancia de la salud para el avance social, y son, en consecuencia, motor del proceso de desarrollo.
+El objeto de estudio de la Enfermería es el cuidado de la salud de la persona sana o enferma en su dimensión integral, con el propósito de que utilice sus capacidades y potencialidades para la vida.</p>
+<br>
+<img src="imagenes/ofer.jpg" width=">25%" height="25%" >
+<br>
+<p>Modalidad de estudio<br>
+-Sistema escolarizado ocho semestres.
+- Sistema Universidad Abierta, ingreso por años posteriores al primero: cuatro semestres con la equivalencia del 40% de créditos de acuerdo con el plan de estudio de la carrera técnica de Enfermería, previamente cursado.<br></p>
+<p>Condiciones particulares:<br>
+Los alumnos requerirán dedicarle tiempo completo a la carrera, sobre todo en los primeros semestres.
+Durante la misma se realizan gastos para uniformes, libros y materiales, así como para el transporte a los campos clínicos hospitalarios y comunitarios.</p>
+<p>la Licenciatura en Enfermería y Licenciatura en Enfermería y Obstetricia capaz de aplicar estrategias de enseñanza aprendizaje en cada uno de los espacios que estén los universitarios, que de cómo resultado la formación de profesionales de enfermería con sólidos conocimientos disciplinarios, científicos y humanísticos; que impacten en la satisfacción de la sociedad y el éxito profesional de los egresados.<br></p>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('pos','','imagenes/pos2.jpg',1)"><img src="imagenes/pos.jpg" width="337" height="149" id="pos"></a> <br>
+      <br>
+      <p>-No realices actividades al aire libre y si es posible no salgas.<br>
+      -Para los ojos, usa lentes protectores, especialmente si usas lentes de contacto.<br>
+      -Ante la caida de ceniza volcanica evita consumir alimentos en la via publica.<br>
+      -Cubre tinacos, cisternas y depositos de agua.<br></p>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('estasss','','imagenes/0eu.jpg',1)"><img src="imagenes/eu.jpg" width="750" height="400" id="estasss"></a> 
+      <br>
+      <img src="imagenes/be.jpg" width=">25%" height="25%" >
+      <br>
+       <img src="imagenes/tem.jpg" width=">35%" height="35%" >
+      <p>Total de asignaturas: 51<br>
+Asignaturas Obligatorias: 45<br>
+Asignaturas Optativas: 6<br>
+Total de horas teóricas: 2512<br>
+Total de horas prácticas: 2096<br>
+Total de créditos: 403<br>
+Créditos de Asignaturas Obligatorias: 379<br>
+Créditos de Asignación Optativas: 24 <br>
+ Duración 8 semestres<br></p>
+ <p>Instalaciones y servicios<br>
+Biblioteca "Graciela Arroyo de Cordero", Unidad para el Aprendizaje Autónomo-Idiomas, Coordinación de Tecnologías Aplicadas a la Educación, Centro de Aprendizaje de Tecnologías de la Información, la Biblioteca, Centro Integral de Salud Escolar, aula interactiva de Morfofisiología, Centro de Enseñanza Clínica Avanzada (CECA), Laboratorio de Ecología, Laboratorio de Farmacología, Laboratorio de Nutrición, así como el Laboratorio de Terapias Holísticas.</p>
+<p>Intercambio académico<br>
+La actualización profesional se da mediante la vinculación con instituciones educativas y de salud nacionales e internacionales.<br>
+Apoyos extracurriculares<br>
+Plan de Apoyo Integral para el Desempeño Escolar del Alumnado (PAIDEA), con el que se mejora la atención y la calidad de los programas y servicios que apoyan la formación integral de los alumnos. Sus líneas de acción:<br>
+- Trayectorias escolares y de egreso<br>
+- Apoyo para mejorar el rendimiento académico de los alumnos<br>
+- Apoyo a la Titulación<br>
+Actividades culturales<br>
+Área deportiva, ludoteca, además de una oferta variada de eventos culturales. La ENEO publica la revista Enfermería Universitaria y la gaceta Acontecer Académico.<br></p>
+      <a href="http://www.eneo.unam.mx/licenciatura-en-enfermeria/licenciatura-en-enfermeria-y-obstetricia.php" ><center> Dar click aquí</center></a>
+    <br>
+    </div>
+    </div>
+  
+   <div data-role="collapsible" data-content-theme="false">
+   <h1>Facultad de medicina (BUAP)</h1>
+   <div>
+   <img src="imagenes/bene.jpg" width=">25%" height="25%" >
+   <p>Sede donde se ofrece:<br>
+-Puebla<br>
+-Tehuacán<br>
+</p>
+<img src="imagenes/be.jpg" width=">25%" height="25%" >
+
+<p>Perfil de Ingreso<br></p>
+<br>
+<img src="imagenes/mis.jpg" width=">35%" height="35%" >
+<br>
+<p>Los estudiantes de nuevo ingreso deberán contar con los siguientes atributos:<br></p>
+<br>
+<img src="imagenes/meto.jpg" width=">25%" height="25%" >
+<br>
+<p>Conocimientos: Bases de las Ciencias Naturales, de las Ciencias Exactas y de las Ciencias Sociales y Dominio de la lengua española<br>
+Habilidades: Para la comunicación oral, escrita y corporal. Pensamiento lógico matemático. Comprensión de la lectura en el idioma inglés.<br>
+Actitudes y valores: Disposición para el trabajo colaborativo y grupal. Disposición para el autoaprendizaje y la actualización continua. Alto sentido de responsabilidad, vocación de servicio y respeto a sus semejantes.<br></p>
+<img src="imagenes/facul.jpg" width=">25%" height="25%" >
+<p>PLAN DE ESTUDIOS.
+NIVEL BASICO:<br>
+<br>
+BIOETICA<br>
+BIOLOGIA CELULAR<br>
+BIOQUIMICA<br>
+EMBRIOLOGIA<br>
+ANATOMIA INTEGRAL DE EXTREMIDADES<br>
+ANATOMIA INTEGRAL DE ABDOMEN<br>
+ANATOMIA INTEGRAL DE CABEZA Y CUELLO<br>
+ANATOMIA INTEGRAL DE TORAX<br>
+BIOQUIMICA HUMANA<br>
+FARMACOLOGIA BASICA<br>
+FISIOLOGIA<br>
+FISIOLOGIA HUMANA<br>
+HISTORIA Y FILOSOFIA DE LA MEDICINA<br>
+HISTOLOGIA<br>
+INMUNOLOGIA<br>
+MICROBIOLOGIA Y VIROLOGIA<br>
+PARASITOLOGIA Y MICOLOGIA<br>
+PSICOLOGIA HUMANA<br>
+COMPUTACION<br>
+DERECHOS HUMANOS<br>
+ECOLOGIA<br>
+GLOBALIZACION<br>
+LENGUA EXTRANJERA I<br>
+LENGUA EXTRANJERA II<br>
+LENGUA EXTRANJERA III<br>
+LENGUA EXTRANJERA IV<br>
+   <p>Los estudiantes de nuevo ingreso deberán contar con los siguientes atributos:
+Conocimientos: Bases de las Ciencias Naturales, de las Ciencias Exactas y de las Ciencias Sociales y Dominio de la lengua española
+Habilidades: Para la comunicación oral, escrita y corporal. Pensamiento lógico matemático.  Comprensión de la lectura en el idioma inglés.
+Actitudes y valores: Disposición para el trabajo colaborativo y grupal. Disposición  para el autoaprendizaje y la actualización continua. Alto sentido de responsabilidad, vocación de servicio y respeto a sus semejantes. <br></p>
+<img src="imagenes/g.jpg" width=">25%" height="25%" >
+   <a href="http://www.buap.mx/portal_pprd/wb/EDUCATIVA/medicina"><center> Dar click aquí</center></a>
+   </div>
+   <div>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ju','','imagenes/estaa.jpg',1)"><img src="imagenes/b.jpg" width="200" height="186" id="ju"></a> </div>
+ </div>
+ </div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+   <h4>Aplicacion Carreras Universitarias,NPP</h4>
+   <img src="imagenes/mdpi.png">
+  </div>
+ </div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>INGENIERÍA EN CIENCIAS AERONAVALES<br>
+  </h1></div>
+<div data-role="content" align="center">
+  <div>
+  <img src="imagenes/in.jpg" width=">25%" height="25%" >
+  <p>El plan de estudios consta de diez semestres, tiempo en el cual los cadetes permanecen  internos en el plantel, al egresar serán, ascendidos al grado de Guardiamarinas del Servicio de Ingenieros de la Armada, Ingeniero Mecánico Naval, (percibiendo el sueldo correspondiente a la jerarquía) quedando comisionados en unidades operativas por un año para la realización de sus prácticas profesionales.</p>
+  <p>La formación académica es integral. La curricular contempla asignaturas tanto del área de las ciencias físicas y matemáticas como de las áreas de humanística, profesional y militar.<br>
+
+- El Oficial tendrá los conocimientos fundamentales en las diversas disciplinas de la Aeronáutica Naval, que le permitan desempeñarse con eficiencia en los campos de investigación, instalación, mantenimiento, operación y administración de los sistemas de aeronaves, asi como de los escuadrones aeronavales y será capaz de participar en operaciones que requieren el dominio de técnicas y tácticas de vuelo, desarrollándolas con capacidad de mando dentro del margen de seguridad, cumpliendo con la reglamentación que marcan los servicios de navegación en el espacio aéreo mexicano y las propias de la institución. Asimismo desarrollará las siguientes habilidades.<br></p>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('inb','','imagenes/in1.jpg',1)"><img src="imagenes/in2.hpg.jpg" width="700" height="466" id="inb"></a>
+<p>Operar con seguridad las aeronaves de ala fija de la institución.<br>
+  Aplicas la freseología de las comunicaciones aéreas.<br>
+<p>La Heroica Escuela Naval Militar es un establecimiento de Educación Superior, cuya misión es la formación de oficiales para la Armada de México, con los conocimientos y doctrinas inherentes a la profesión naval militar.<br>
+  La formación académica es integral. La currícula contempla asignaturas tanto del área de las ciencias físicas y matemáticas como de las áreas de humanística, económica, administrativa y militar</p>
+<img src="imagenes/d.jpg" width=">25%" height="25%" >
+<p>En el poblado de Antón Lizardo, Veracruz a 32 kilómetros al sureste del puerto de Veracruz, Ver., se alzan las instalaciones de la Heroica Escuela Naval Militar. Este centro educativo es un amplio recinto que alberga un dinámico complejo arquitectónico, cuyo centro lo constituye el patio de honor donde se realizan las diversas ceremonias, entre ellas la de graduación de los cadetes y la del 21 de abril (la cual conmemora la defensa del Puerto de Veracruz en 1914).<br></p>
+<br>
+<img src="imagenes/inop.jpg" width=">25%" height="25%" >
+<br>
+
+<p>Es importante resaltar la comodidad de sus salones equipados con modernas tecnologías (TIC's), cuenta con auditorios audiovisuales interactivas, además con laboratorios de física, química, idioma, computación, armas navales, talleres de torno y soldadura, electricidad, máquinas eléctricas, turbinas, motores; simulador de navegación, donde son base para su desempeño como futuros oficiales de la Armada de México.<br>
+
+Además cabe mencionar que se remodelo el comedor , donde de manera amplia y fresca, los cadetes comen sus alimentos durante su estancia, anexado con un comedor didáctico, auditorio para eventos internos asi como para convenciones, exposiciones y conferencias.<br>
+
+En otra area en el Centro de Astronomía y Meteorologico se encuentra el planetario. La Heroica cuenta con una biblioteca estilo palofaxiana donde los cadetes dan consulta a sus materias y que el público en general puede encontrar material para el estudio.<br>
+
+En este mismo plantel hay un centro de convivencias " Club de Cadetes", un gimnasio, jardines y el mar como telón de fondo para prácticas náuticas, haciendo de este plantel un lugar excepcional.<br>
+
+No dejemos pasar que los cadetes estan internados durante un periodo de 5 años, y donde se le brinda a todo el personal area de descanso y dormitorios, donde tienen su espacio para estudio, locker para guardar artìculos personales y tener listo su uniforme dia a dia. <br></p>
+<br>
+<img src="imagenes/o.jpg" width=">25%" height="25%" >
+<a href="http://www.henm.edu.mx/CAN.html"><center> Dar click aquí</center></a>
+ <br>
+ <p>La formación académica es integral. La curricular contempla asignaturas tanto del área de las ciencias físicas y matemáticas como de las áreas de humanística, profesional y militar.</p>
+    <img src="imagenes/inapro.jpg" width=">25%" height="25%" >
+ </div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+     <h4>Aplicacion Carreras Universitarias, NPP</h4>
+     <img src="imagenes/mdpi.png">
+     </div>
+  </div>
+</div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>PSICOLOGÍA</h1><br>
+<div data-role="content" align="center">
+  <div>
+  <img src="imagenes/0uv.jpg" width=">25%" height="25%" >
+  <br>
+  <p>Elegir UVM significa ser parte de la universidad con más experiencia en la enseñanza de adultos...<br>
+El modelo educativo de Licenciaturas Ejecutivas UVM:<br></p>
+<br>
+<img src="imagenes/uvm.jpg" width=">25%" height="25%" >
+<br>
+<p>Se adapta a tu estilo de vida con horarios de clase que no interfieren con tu trabajo porque optimiza el número de materias para que lleves menor carga académica al mismo tiempo.<br>
+Te permite estudiar una carrera diseñada para las necesidades y el modo de aprender del estudiante adulto. Así, puedes iniciar tus estudios universitarios o retomar la carrera que tuviste que abandonar por distintas razones, y obtener un título profesional.<br>
+Hace posible poner en práctica y de forma inmediata los conocimientos que adquieres, ya que cada materia ofrece equilibrio entre teoría, práctica y aplicación de lo aprendido.<br>
+Ofrece una preparación gerencial que asegura el desarrollo de las competencias gerenciales más valoradas por los empleadores, como son: liderazgo, negociación, emprendimiento, manejo de equipos de trabajo, solución de problemas y toma de decisiones.<br>
+Combina clases presenciales, en línea y blended, las materias blended son la combinación ideal entre aprendizaje presencial y en linea para tener un balance perfecto de horas cada periodo de estudios.<br>
+Te proporciona tres diplomados con valor curricular que avalan la preparación que vas adquiriendo durante tu carrera, otorgándote mayores niveles de competencia.<br>
+Neurociencias<br>
+Psicometría del Desarrollo<br>
+Psicología Clínica<br></p>
+<br>
+<img src="imagenes/uuvm.jpg" width=">25%" height="25%" >
+<br>
+<p>Detectar problemas sociales y culturales hasta desarrollar investigaciones diagnósticas, serás capaz de atender la salud mental de individuos y de grupos en los diversos escenarios de aplicación de la Psicología...<br>
+
+Detección, diagnóstico y evaluación de los problemas conductuales y sociales en individuos y organizaciones.<br>
+Desarrollo de programas de intervención primaria, secundaria y terciaria, integrando equipos de trabajo interdisciplinario y transdisciplinario que permitan a la comunidad objetivo incrementar sus habilidades y aptitudes para la solución de problemas.<br>
+Realización de investigaciones diagnósticas de tipo social, organizacional y epidemiológico que bene?cien a la sociedad en distintas esferas de intervención (comunitaria, social, organizacional, familiar, individual y grupal).</p>
+  <p>Esta Licenciatura UVM te brinda los conocimientos, las competencias y las habilidades para diagnosticar, analizar y evaluar el comportamiento en las distintas etapas del desarrollo humano, así como para desarrollar diagnósticos y estrategias de intervención.
+Dominar la metodología de la disciplina para conocer, a través de la investigación, los procesos psicológicos que determinan la conducta del individuo, e intervenir objetivamente en los diversos campos de interacción social.</p>
+<a href="http://www.universidaduvm.mx/licenciatura-en-psicologia/"><center> Dar click aquí</center></a>
+ <br>
+ <img src="imagenes/r.jpg" width=">25%" height="25%" >
+ <br>
+ <p>Esta Licenciatura UVM está respaldada por la Red Iberoamericana de Psicología Laureate (RIPLA), que fomenta relaciones académicas muy productivas entre universidades de México, Brasil, España, Costa Rica, Perú, Chile, Ecuador y Panamá</p>
+ <p>Campus que lo imparten</p>
+ <img src="imagenes/mapa.jpg" width=">25%" height="25%" >
+ </div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+     <h4>Aplicacion Carreras Universitarias, NPP</h4>
+     <img src="imagenes/mdpi.png">
+     </div>
+  </div>
+</div>
+</body>
+</html>
